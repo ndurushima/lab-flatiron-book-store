@@ -44,4 +44,10 @@ const bookStore = {
 }
 
 // Write your code here!
+function displayBookstore(bookStore){
+    const bookStoreTitle = document.querySelector("#header")
+    bookStoreTitle.textContent = bookStore.name
 
+}
+
+displayBookstore(bookStore)
